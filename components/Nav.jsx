@@ -33,7 +33,7 @@ const Nav = () => {
         <p className="logo_text">Promptopia</p>
       </Link>
       {/* Desktop Navigation */}
-      {/* TODO Improve this design to image then after clicking on image menu opens - Visit Profile ----- - Sign Out */}
+      
       <div className="sm:flex hidden">
         {session?.user ? (
           <div className="flex gap-3 md:gap-5">
